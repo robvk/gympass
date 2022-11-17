@@ -1,0 +1,90 @@
+.card-container {
+  width: 14rem;
+  height: 22rem;
+  font-size: 1rem;
+  margin: auto 1.4rem;
+  margin-bottom: 1.7rem;
+  transition: transform 0.1s;
+}
+.card {
+  width: inherit;
+  background-color: white;
+  border-radius: var(--radius);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card-image-container {
+  height: 5rem;
+  width: 100%;
+  position: relative;
+}
+
+.card-image {
+  height: inherit;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.card-image-canceled {
+  height: inherit;
+  width: 100%;
+  vertical-align: middle;
+  opacity: 0.5;
+}
+
+.card-content {
+  width: 100%;
+  padding: 1rem;
+  height: 11rem;
+  background-color: #eeecf3;
+}
+
+.card-title {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0px;
+  margin-bottom: 0.4875rem;
+  overflow: hidden;
+}
+.card-icon-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.card-text {
+  color: #808080;
+  font-weight: 400;
+}
+
+.card-icon-container {
+  height: 1.08rem;
+  margin-right: 1rem;
+}
+
+.card-icon {
+  width: 1.1rem;
+}
+
+.club-card-link {
+  display: block;
+  text-align: center;
+  color: tomato;
+}
+.club-card-link:hover {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  height: 1.7rem;
+  line-height: 2;
+}
+.card-container:hover {
+  transform: scale(1.1);
+}
+.card:hover {
+  box-shadow: 10px 10px 5px lightblue;
+}

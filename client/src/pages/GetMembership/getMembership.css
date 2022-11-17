@@ -1,0 +1,20 @@
+.get-membership-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  .get-membership-container {
+    flex-direction: row;
+    margin-bottom: 15rem;
+    min-height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .get-membership-container {
+    min-height: 100vh;
+  }
+}
